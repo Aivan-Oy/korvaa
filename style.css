@@ -824,7 +824,7 @@ picture.full {
 		display: flex;
 		height: 100%;
 		min-height: 40em;
-		overflow-x: hidden;
+		overflow: hidden;
 		padding: 0 10%;
 		position: relative;
 		width: auto;
@@ -845,12 +845,13 @@ picture.full {
 		margin: 3em 0 0 0;
 		position: absolute;
 		top: 0;
-		transform: translateX(150%);
-		transition: transform .5s ease-out;
+		transform: translateX(200%);
+		transform: translateX(50vw);
+		transition: transform .3s ease-out;
 		width: 90%;
 	}
 	
-	.js .stepper .materials-list li.current {
+	.js .stepper .materials-list .current {
 		transform: translateX(0);
 	}
 	
