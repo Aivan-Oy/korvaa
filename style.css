@@ -991,17 +991,33 @@ picture.full {
 
 .press-contacts li {
 	margin: 2em 0;
-	max-width: 12em;
+	max-width: 20em;
 }
 
-@media (min-width:40em) {
+.press-contacts b {
+	display: block;
+}
+
+.press-contacts h3 {
+	margin: 1.5em 0 .75em;
+}
+
+.press-contacts .org {
+	font-size: .85em;
+	font-weight: 500;
+	letter-spacing: .075em;
+	margin: .25em 0 .5em;
+	text-transform: uppercase;
+}
+
+@media (min-width:50em) {
 	.press-contacts {
 		display: flex;
 		justify-content: space-between;
 	}
 	.press-contacts li {
 		flex: 1;
-		margin: 5%;
+		margin: 3%;
 	}
 }
 
