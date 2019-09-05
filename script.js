@@ -18,14 +18,12 @@
 	
 	function sizeInit() {
 		if( window.innerWidth > 16*50 ) {
-			console.info('Large init.');
 			if( mode == 'stepper' ) {
 				materialSection.classList.add('stepper');
 			} else {
 				trackPlacement(materialSection);
 			}	
 		} else {
-			console.info('Small init.');
 			if( mode == 'stepper' ) {
 				var stepper = document.querySelector('.stepper');
 				if( stepper ) {
@@ -100,7 +98,6 @@
 	}
 	
 	function stepper(e) {
-		console.log(e);
 		var t = e.target;
 		if( t.tagName == 'BUTTON' ) {
 			var direction = 0;
@@ -110,7 +107,6 @@
 				direction = -1;
 			}
 			if( direction != 0 ) {
-				console.log(direction);
 				var current = materialSection.querySelector('.materials-list .current');
 				var navCurrent = materialSection.querySelector('.bookmarks .current');
 				current.classList.remove('current');
