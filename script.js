@@ -89,11 +89,16 @@
 		buttons.appendChild(next);
 		section.appendChild(buttons);
 		
-		
-		nav.children[0].classList.add('current');
 		var content = section.querySelector('.materials-list');
-		content.children[0].classList.add('current');
-		
+		var currentHash = window.location.hash;
+		console.log(currentHash);
+		if( currentHash ) {
+			nav.querySelector('a[href=' + currentHash + ']').parentNode.classList.add('current');
+			content.querySelector(currentHash).classList.add('current');
+		} else {
+			nav.children[0].classList.add('current');
+			content.children[0].classList.add('current');
+		}
 		buttons.addEventListener('click', stepper);
 	}
 	
@@ -132,7 +137,7 @@
 				if( newItem && newNavItem ) {
 					newItem.classList.add('current');
 					newNavItem.classList.add('current');
-					window.location.hash = newNavItem.firstElementChild.href;
+					//window.location.hash = newNavItem.firstElementChild.getAttribute('href');
 				}
 			}
 		}
