@@ -715,6 +715,7 @@ picture.full {
 	border: none;
 	font-size: 1em;
 	height: 3em;
+	overflow: hidden;
 	text-align: center;
 	width: 3em;
 	-webkit-appearance: none;
