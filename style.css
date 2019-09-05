@@ -804,7 +804,7 @@ picture.full {
 		min-height: 5em;
 		position: absolute;
 		top: 0;
-		transform: translateX(30em);
+		transform: translateX(150%);
 		transition: transform .5s ease-out;
 		width: 75%;
 	}
