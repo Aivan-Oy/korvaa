@@ -917,6 +917,10 @@ picture.full {
 	.team-members {
 		max-width: 85%;
 	}
+	
+	.team-members li {
+		min-width: 16%;
+	}
 }
 
 .team-members li {
