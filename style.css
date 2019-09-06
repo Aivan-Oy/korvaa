@@ -230,9 +230,11 @@ a:active {
 }
 
 .on-display {
+	background: rgba(255,255,255,.6);
 	align-self: flex-end;
 	box-shadow: var(--floating);
 	max-width: 35em;
+	padding: .25em 0;
 }
 
 @media (min-width:30em) {
@@ -249,21 +251,19 @@ a:active {
 }
 
 .on-display h3 {
-	font-family: presicav, "TT Norms", sans-serif;
 	font-weight: bold;
-	margin: 0;
-}
-
-.on-display li {
-	background: var(--steelette);
-	color: var(--snow);
 	margin: 0;
 	padding: .5em 1em;
 }
 
-.on-display li:first-child {
-	background: var(--snow);
-	color: var(--steel);
+.on-display li {
+	display: flex;
+	font-size: .85em;
+	font-weight: 500;
+	justify-content: space-between;
+	letter-spacing: .05em;
+	margin: 0;
+	padding: .5em 1em;
 }
 
 blockquote {
@@ -988,6 +988,10 @@ picture.full {
 }
 
 /* ! Press -------------------------------------------------- */
+
+.page-press .page-title {
+	margin: 2em 0 auto;
+}
 
 .press-contacts {
 	list-style: none;
