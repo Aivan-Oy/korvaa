@@ -755,37 +755,6 @@ picture.full {
 	font-weight: bold;
 }
 
-/*@media (min-width:50em) {
-	.materials {
-		box-sizing: border-box;
-		height: 50vw;
-		padding-left: 50%;
-		padding-top: 0;
-		position: relative;
-	}
-	
-	.components {
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 50%;
-	}
-	
-	.materials-list {
-		height: 100%;
-		overflow: auto;
-		position: relative;
-		scroll-snap-type: proximity;
-	}
-	
-	.materials-list li {
-		min-height: 90%;
-		padding-top: 10%;
-		scroll-snap-align: start;
-	}
-}*/
-
 @media (min-width:50em) {
 	
 	.js .materials {
