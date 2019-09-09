@@ -1,34 +1,33 @@
+@import url("//hello.myfonts.net/count/3a1100");
 @font-face {
 	font-family: 'TT Norms';
 	font-style: normal;
 	font-weight: normal;
-	src: url('fonts/TTNorms-Regular.eot');
-	src: url('fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'), 
-	   url('fonts/TTNorms-Regular.woff') format('woff'),
-	   url('fonts/TTNorms-Regular.ttf')  format('truetype'),
-	   url('fonts/TTNorms-Regular.svg#svgFontName') format('svg');
+	src: url('webfonts/3A1100_2_0.eot');
+	src: url('webfonts/3A1100_2_0.eot?#iefix') format('embedded-opentype'),
+		url('webfonts/3A1100_2_0.woff2') format('woff2'),
+		url('webfonts/3A1100_2_0.woff') format('woff'),
+		url('webfonts/3A1100_2_0.ttf') format('truetype');
 }
-
-@font-face {
-	font-family: 'TT Norms';
-	font-style: normal;
-	font-weight: 500;
-	src: url('fonts/TTNorms-Medium.eot');
-	src: url('fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'), 
-	   url('fonts/TTNorms-Medium.woff') format('woff'),
-	   url('fonts/TTNorms-Medium.ttf')  format('truetype'),
-	   url('fonts/TTNorms-Medium.svg#svgFontName') format('svg');
-}
-
 @font-face {
 	font-family: 'TT Norms';
 	font-style: normal;
 	font-weight: bold;
-	src: url('fonts/TTNorms-Bold.eot');
-	src: url('fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'), 
-	   url('fonts/TTNorms-Bold.woff') format('woff'),
-	   url('fonts/TTNorms-Bold.ttf')  format('truetype'),
-	   url('fonts/TTNorms-Bold.svg#svgFontName') format('svg');
+	src: url('fonts/3A1100_0_0.eot');
+	src: url('fonts/3A1100_0_0.eot?#iefix') format('embedded-opentype'),
+		url('fonts/3A1100_0_0.woff2') format('woff2'),
+		url('fonts/3A1100_0_0.woff') format('woff'),
+		url('fonts/3A1100_0_0.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'TT Norms';
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/3A1100_1_0.eot');
+	src: url('fonts/3A1100_1_0.eot?#iefix') format('embedded-opentype'),
+		url('fonts/3A1100_1_0.woff2') format('woff2'),
+		url('fonts/3A1100_1_0.woff') format('woff'),
+		url('fonts/3A1100_1_0.ttf') format('truetype');
 }
 
 :root {
@@ -60,7 +59,7 @@
 body {
 	background: var(--snow);
 	color: var(--steel);
-	font-family: "TT Norms", -apple-system, sans-serif;
+	font-family: "TT Norms", sans-serif;
 	font-size: 1;
 	line-height: 1.5;
 	margin: 0;
