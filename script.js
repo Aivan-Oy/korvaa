@@ -91,7 +91,7 @@
 		
 		var content = section.querySelector('.materials-list');
 		var currentHash = window.location.hash;
-		console.log(currentHash);
+		//console.log(currentHash);
 		if( currentHash ) {
 			nav.querySelector('a[href=' + currentHash + ']').parentNode.classList.add('current');
 			content.querySelector(currentHash).classList.add('current');
