@@ -791,9 +791,6 @@ picture.full {
 	
 	.js .stepper .materials-list {
 		display: flex;
-		height: 100%;
-		min-height: 40em;
-		overflow: hidden;
 		padding: 0 10%;
 		position: relative;
 		width: auto;
@@ -815,7 +812,7 @@ picture.full {
 		position: absolute;
 		top: 0;
 		transform: translateX(200%);
-		transform: translateX(50vw);
+		transform: translateX(90vw);
 		transition: transform .3s ease-out;
 		width: 90%;
 	}
