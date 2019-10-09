@@ -235,11 +235,11 @@ a:active {
 	padding: .25em 0;
 }
 
-@media (min-width:30em) {
-	.on-display {
-		min-width: 17em;
-		width: 30%;
-	}
+.on-display time {
+	margin-top: .25em;
+	text-align: right;
+	white-space: nowrap;
+	width: 100%;
 }
 
 .on-display ol {
@@ -256,12 +256,34 @@ a:active {
 
 .on-display li {
 	display: flex;
+	flex-wrap: wrap;
 	font-size: .85em;
 	font-weight: 500;
 	justify-content: space-between;
 	letter-spacing: .05em;
+	line-height: 1.3;
 	margin: 0;
 	padding: .2em 1em;
+}
+
+@media (min-width:20em) {
+
+	.on-display li {
+		flex-wrap: nowrap;
+	}
+	
+	.on-display time {
+		margin-left: .75em;
+		margin-top: 0;
+		width: auto;
+	}
+}
+
+@media (min-width:24em) {
+	.on-display {
+		min-width: 21em;
+		width: 30%;
+	}
 }
 
 blockquote {
