@@ -266,6 +266,14 @@ a:active {
 	padding: .2em 1em;
 }
 
+.venue {
+	display: block;
+	font-size: .9em;
+	letter-spacing: .1em;
+	margin-top: .3em;
+	text-transform: uppercase;
+}
+
 @media (min-width:20em) {
 
 	.on-display li {
