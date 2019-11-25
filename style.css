@@ -999,6 +999,15 @@ picture.full {
 	min-height: 7em;
 }
 
+.footer p {
+	color: var(--steelette);
+	font-size: .6875em;
+	margin: 2em auto;
+	max-width: 45em;
+	text-align: center;
+	width: 80%;
+}
+
 .partners-list {
 	display: flex;
 	flex-wrap: wrap;
